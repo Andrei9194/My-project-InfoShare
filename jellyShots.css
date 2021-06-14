@@ -49,3 +49,56 @@ body {
     font-weight: 400;
     font-size: 0.9em;
 }
+
+.main-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 110px;
+}
+
+.main-block-information {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-information-content {
+    max-width: 400px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.main-information-title {
+    font-size: 56px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.main-information-text {
+    font-size: 1em;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.main-information-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-order,
+.link-franchise {
+    color: white;
+    text-decoration: none;
+    padding-top: 50px;
+}
+
+.link-order {
+    border-bottom: 2px solid white;
+    font-weight: bold;
+    max-width: 50px;
+}
+
+.link-franchise {
+    color: #9e9187;
+    font-weight: 400;
+}
