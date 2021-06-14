@@ -102,3 +102,32 @@ body {
     color: #9e9187;
     font-weight: 400;
 }
+
+.main-block-links-content {
+    border-bottom: 1px solid white;
+    max-width: 250px;
+}
+
+.main-block-links {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 10px 0 0;
+}
+
+.block-link {
+    color: white;
+    text-decoration: none;
+    word-spacing: 1.5em;
+}
+
+.block-links-text {
+    font-size: 0.8em;
+    color: #9e9187;
+}
+
+.block-link-home {
+    color: white;
+    text-decoration: none;
+}
